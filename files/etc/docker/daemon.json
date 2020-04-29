@@ -1,0 +1,8 @@
+{
+    "data-root": "/mnt/sdb1/Data/Docker",
+    "log-level": "warn",
+    "registry-mirrors": [
+      "https://dockerhub.azk8s.cn",
+      "https://hub-mirror.c.163.com"
+  ]
+}
