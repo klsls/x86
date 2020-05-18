@@ -9,9 +9,13 @@ config globals 'globals'
 	option ula_prefix 'fdc8:92b2:2cb3::/48'
 
 config interface 'lan'
-	option type 'bridge'
-	option ifname 'eth0'
-	option _orig_ifname 'eth0'
-	option _orig_bridge 'true'
-	option proto 'dhcp'
+        option type 'bridge'
+        option ifname 'eth0'
+        option proto 'static'
+        option ipaddr '192.168.2.88'
+        option netmask '255.255.255.0'
+        option ip6assign '60'
+        option gateway '192.168.2.1'
+        option dns '192.168.2.1'
+
 
